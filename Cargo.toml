@@ -1,0 +1,14 @@
+[package]
+name = "atomic_lifo"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+authors = ["Alexander Schütz <aschuetz@protonmail.com>"]
+keywords = ["lockfree", "atomic", "hazard"]
+categories = ["data-structures"]
+description = "Lock free thread-safe lifo for rust."
+readme = "README.md"
+repository = "https://github.com/AlexanderSchuetz97/atomic_lifo"
+
+[dependencies]
+defer-heavy = "0.1.0"
